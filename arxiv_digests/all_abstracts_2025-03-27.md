@@ -1,0 +1,156 @@
+# arXiv q-bio.BM Papers - 2025-03-27
+
+## Paper 1: IgCraft: A versatile sequence generation framework for antibody discovery and engineering
+
+**Authors:** Matthew Greenig, Haowen Zhao, Vladimir Radenkovic, Aubin Ramon, Pietro Sormanni
+
+**Date:** Thu, 27 Mar 2025
+
+**ID:** arXiv:2503.19821
+
+**Abstract:**
+
+Designing antibody sequences to better resemble those observed in natural human repertoires is a key challenge in biologics development. We introduce IgCraft: a multi-purpose model for paired human antibody sequence generation, built on Bayesian Flow Networks. IgCraft presents one of the first unified generative modeling frameworks capable of addressing multiple antibody sequence design tasks with a single model, including unconditional sampling, sequence inpainting, inverse folding, and CDR motif scaffolding. Our approach achieves competitive results across the full spectrum of these tasks while constraining generation to the space of human antibody sequences, exhibiting particular strengths in CDR motif scaffolding (grafting) where we achieve state-of-the-art performance in terms of humanness and preservation of structural properties. By integrating previously separate tasks into a single scalable generative model, IgCraft provides a versatile platform for sampling human antibody sequences under a variety of contexts relevant to antibody discovery and engineering. Model code and weights are publicly available at this http URL.
+
+---
+
+## Paper 2: mRNA Folding Algorithms for Structure and Codon Optimization
+
+**Authors:** Max Ward, Mary Richardson, Mihir Metkar
+
+**Date:** Thu, 27 Mar 2025
+
+**ID:** arXiv:2503.19273
+
+**Abstract:**
+
+mRNA technology has revolutionized vaccine development, protein replacement therapies, and cancer immunotherapies, offering rapid production and precise control over sequence and efficacy. However, the inherent instability of mRNA poses significant challenges for drug storage and distribution, particularly in resource-limited regions. Co-optimizing RNA structure and codon choice has emerged as a promising strategy to enhance mRNA stability while preserving efficacy. Given the vast sequence and structure design space, specialized algorithms are essential to achieve these qualities. Recently, several effective algorithms have been developed to tackle this challenge that all use similar underlying principles. We call these specialized algorithms "mRNA folding" algorithms as they generalize classical RNA folding algorithms. A comprehensive analysis of their underlying principles, performance, and limitations is lacking. This review aims to provide an in-depth understanding of these algorithms, identify opportunities for improvement, and benchmark existing software implementations in terms of scalability, correctness, and feature support.
+
+---
+
+## Paper 3: UniMoMo: Unified Generative Modeling of 3D Molecules for De Novo Binder Design
+
+**Authors:** Xiangzhe Kong, Zishen Zhang, Ziting Zhang, Rui Jiao, Jianzhu Ma, Kai Liu, Wenbing Huang, Yang Liu
+
+**Date:** Thu, 27 Mar 2025
+
+**ID:** arXiv:2503.19300
+
+**Abstract:**
+
+The design of target-specific molecules such as small molecules, peptides, and antibodies is vital for biological research and drug discovery. Existing generative methods are restricted to single-domain molecules, failing to address versatile therapeutic needs or utilize cross-domain transferability to enhance model performance. In this paper, we introduce Unified generative Modeling of 3D Molecules (UniMoMo), the first framework capable of designing binders of multiple molecular domains using a single model. In particular, UniMoMo unifies the representations of different molecules as graphs of blocks, where each block corresponds to either a standard amino acid or a molecular fragment. Based on these unified representations, UniMoMo utilizes a geometric latent diffusion model for 3D molecular generation, featuring an iterative full-atom autoencoder to compress blocks into latent space points, followed by an E(3)-equivariant diffusion process. Extensive benchmarks across peptides, antibodies, and small molecules demonstrate the superiority of our unified framework over existing domain-specific models, highlighting the benefits of multi-domain training.
+
+---
+
+## Paper 4: Clustering data by reordering them
+
+**Authors:** Axel Descamps, Sélène Forget, Aliénor Lahlou, Claire Lavergne, Camille Berthelot, Guillaume Stirnemann, Rodolphe Vuilleumier, Nicolas Chéron
+
+**Date:** Thu, 27 Mar 2025
+
+**ID:** arXiv:2503.19067
+
+**Abstract:**
+
+Grouping elements into families to analyse them separately is a standard analysis procedure in many areas of sciences. We propose herein a new algorithm based on the simple idea that members from a family look like each other, and don't resemble elements foreign to the family. After reordering the data according to the distance between elements, the analysis is automatically performed with easily-understandable parameters. Noise is explicitly taken into account to deal with the variety of problems of a data-driven world. We applied the algorithm to sort biomolecules conformations, gene sequences, cells, images, and experimental conditions.
+
+---
+
+## Paper 5: Chem42: a Family of chemical Language Models for Target-aware Ligand Generation
+
+**Authors:** Aahan Singh, Engin Tekin, Maryam Nadeem, Nancy A. ElNaker, Mohammad Amaan Sayeed, Natalia Vassilieva, Boulbaba Ben Amor
+
+**Date:** Thu, 27 Mar 2025
+
+**ID:** arXiv:2503.16563
+
+**Abstract:**
+
+Revolutionizing drug discovery demands more than just understanding molecular interactions - it requires generative models that can design novel ligands tailored to specific biological targets. While chemical Language Models (cLMs) have made strides in learning molecular properties, most fail to incorporate target-specific insights, restricting their ability to drive de-novo ligand generation. Chem42, a cutting-edge family of generative chemical Language Models, is designed to bridge this gap. By integrating atomic-level interactions with multimodal inputs from Prot42, a complementary protein Language Model, Chem42 achieves a sophisticated cross-modal representation of molecular structures, interactions, and binding patterns. This innovative framework enables the creation of structurally valid, synthetically accessible ligands with enhanced target specificity. Evaluations across diverse protein targets confirm that Chem42 surpasses existing approaches in chemical validity, target-aware design, and predicted binding affinity. By reducing the search space of viable drug candidates, Chem42 could accelerate the drug discovery pipeline, offering a powerful generative AI tool for precision medicine. Our Chem42 models set a new benchmark in molecule property prediction, conditional molecule generation, and target-aware ligand design. The models are publicly available at this http URL.
+
+---
+
+## Paper 6: Non-Canonical Crosslinks Confound Evolutionary Protein Structure Models
+
+**Authors:** Romain Lacombe
+
+**Date:** Wed, 26 Mar 2025
+
+**ID:** arXiv:2503.17368
+
+**Abstract:**
+
+Evolution-based protein structure prediction models have achieved breakthrough success in recent years. However, they struggle to generalize beyond evolutionary priors and on sequences lacking rich homologous data. Here we present a novel, out-of-domain benchmark based on sactipeptides, a rare class of ribosomally synthesized and post-translationally modified peptides (RiPPs) characterized by sulfur-to-$\alpha$-carbon thioether bridges creating cross-links between cysteine residues and backbone. We evaluate recent models on predicting conformations compatible with these cross-links bridges for the 10 known sactipeptides with elucidated post-translational modifications. Crucially, the structures of 5 of them have not yet been experimentally resolved. This makes the task a challenging problem for evolution-based models, which we find exhibit limited performance (0.0% to 19.2% GDT-TS on sulfur-to-$\alpha$-carbon distance). Our results point at the need for physics-informed models to sustain progress in biomolecular structure prediction.
+
+---
+
+## Paper 7: RiboFlow: Conditional De Novo RNA Sequence-Structure Co-Design via Synergistic Flow Matching
+
+**Authors:** Runze Ma, Zhongyue Zhang, Zichen Wang, Chenqing Hua, Zhuomin Zhou, Fenglei Cao, Jiahua Rao, Shuangjia Zheng
+
+**Date:** Tue, 25 Mar 2025
+
+**ID:** arXiv:2503.17007
+
+**Abstract:**
+
+Ribonucleic acid (RNA) binds to molecules to achieve specific biological functions. While generative models are advancing biomolecule design, existing methods for designing RNA that target specific ligands face limitations in capturing RNA's conformational flexibility, ensuring structural validity, and overcoming data scarcity. To address these challenges, we introduce RiboFlow, a synergistic flow matching model to co-design RNA structures and sequences based on target molecules. By integrating RNA backbone frames, torsion angles, and sequence features in an unified architecture, RiboFlow explicitly models RNA's dynamic conformations while enforcing sequence-structure consistency to improve validity. Additionally, we curate RiboBind, a large-scale dataset of RNA-molecule interactions, to resolve the scarcity of high-quality structural data. Extensive experiments reveal that RiboFlow not only outperforms state-of-the-art RNA design methods by a large margin but also showcases controllable capabilities for achieving high binding affinity to target ligands. Our work bridges critical gaps in controllable RNA design, offering a framework for structure-aware, data-efficient generation.
+
+---
+
+## Paper 8: An Energy-Adaptive Elastic Equivariant Transformer Framework for Protein Structure Representation
+
+**Authors:** Zhongyue Zhang, Runze Ma, Yanjie Huang, Shuangjia Zheng
+
+**Date:** Tue, 25 Mar 2025
+
+**ID:** arXiv:2503.16996
+
+**Abstract:**
+
+Structure-informed protein representation learning is essential for effective protein function annotation and \textit{de novo} design. However, the presence of inherent noise in both crystal and AlphaFold-predicted structures poses significant challenges for existing methods in learning robust protein representations. To address these issues, we propose a novel equivariant Transformer-State Space Model(SSM) hybrid framework, termed $E^3$former, designed for efficient protein representation. Our approach uses energy function-based receptive fields to construct proximity graphs and incorporates an equivariant high-tensor-elastic selective SSM within the transformer architecture. These components enable the model to adapt to complex atom interactions and extract geometric features with higher signal-to-noise ratios. Empirical results demonstrate that our model outperforms existing methods in structure-intensive tasks, such as inverse folding and binding site prediction, particularly when using predicted structures, owing to its enhanced tolerance to data deviation and noise. Our approach offers a novel perspective for conducting biological function research and drug discovery using noisy protein structure data.
+
+---
+
+## Paper 9: Gumbel-Softmax Flow Matching with Straight-Through Guidance for Controllable Biological Sequence Generation
+
+**Authors:** Sophia Tang, Yinuo Zhang, Alexander Tong, Pranam Chatterjee
+
+**Date:** Tue, 25 Mar 2025
+
+**ID:** arXiv:2503.17361
+
+**Abstract:**
+
+Flow matching in the continuous simplex has emerged as a promising strategy for DNA sequence design, but struggles to scale to higher simplex dimensions required for peptide and protein generation. We introduce Gumbel-Softmax Flow and Score Matching, a generative framework on the simplex based on a novel Gumbel-Softmax interpolant with a time-dependent temperature. Using this interpolant, we introduce Gumbel-Softmax Flow Matching by deriving a parameterized velocity field that transports from smooth categorical distributions to distributions concentrated at a single vertex of the simplex. We alternatively present Gumbel-Softmax Score Matching which learns to regress the gradient of the probability density. Our framework enables high-quality, diverse generation and scales efficiently to higher-dimensional simplices. To enable training-free guidance, we propose Straight-Through Guided Flows (STGFlow), a classifier-based guidance method that leverages straight-through estimators to steer the unconditional velocity field toward optimal vertices of the simplex. STGFlow enables efficient inference-time guidance using classifiers pre-trained on clean sequences, and can be used with any discrete flow method. Together, these components form a robust framework for controllable de novo sequence generation. We demonstrate state-of-the-art performance in conditional DNA promoter design, sequence-only protein generation, and target-binding peptide design for rare disease treatment.
+
+---
+
+## Paper 10: Preferential Multi-Objective Bayesian Optimization for Drug Discovery
+
+**Authors:** Tai Dang, Long-Hung Pham, Sang T. Truong, Ari Glenn, Wendy Nguyen, Edward A. Pham, Jeffrey S. Glenn, Sanmi Koyejo, Thang Luong
+
+**Date:** Tue, 25 Mar 2025
+
+**ID:** arXiv:2503.16841
+
+**Abstract:**
+
+Despite decades of advancements in automated ligand screening, large-scale drug discovery remains resource-intensive and requires post-processing hit selection, a step where chemists manually select a few promising molecules based on their chemical intuition. This creates a major bottleneck in the virtual screening process for drug discovery, demanding experts to repeatedly balance complex trade-offs among drug properties across a vast pool of candidates. To improve the efficiency and reliability of this process, we propose a novel human-centered framework named CheapVS that allows chemists to guide the ligand selection process by providing preferences regarding the trade-offs between drug properties via pairwise comparison. Our framework combines preferential multi-objective Bayesian optimization with a docking model for measuring binding affinity to capture human chemical intuition for improving hit identification. Specifically, on a library of 100K chemical candidates targeting EGFR and DRD2, CheapVS outperforms state-of-the-art screening methods in identifying drugs within a limited computational budget. Notably, our method can recover up to 16/37 EGFR and 37/58 DRD2 known drugs while screening only 6% of the library, showcasing its potential to significantly advance drug discovery.
+
+---
+
+## Paper 11: Uni-3DAR: Unified 3D Generation and Understanding via Autoregression on Compressed Spatial Tokens
+
+**Authors:** Shuqi Lu, Haowei Lin, Lin Yao, Zhifeng Gao, Xiaohong Ji, Weinan E, Linfeng Zhang, Guolin Ke
+
+**Date:** Mon, 24 Mar 2025
+
+**ID:** arXiv:2503.16278
+
+**Abstract:**
+
+Recent advancements in large language models and their multi-modal extensions have demonstrated the effectiveness of unifying generation and understanding through autoregressive next-token prediction. However, despite the critical role of 3D structural generation and understanding (3D GU) in AI for science, these tasks have largely evolved independently, with autoregressive methods remaining underexplored. To bridge this gap, we introduce Uni-3DAR, a unified framework that seamlessly integrates 3D GU tasks via autoregressive prediction. At its core, Uni-3DAR employs a novel hierarchical tokenization that compresses 3D space using an octree, leveraging the inherent sparsity of 3D structures. It then applies an additional tokenization for fine-grained structural details, capturing key attributes such as atom types and precise spatial coordinates in microscopic 3D structures. We further propose two optimizations to enhance efficiency and effectiveness. The first is a two-level subtree compression strategy, which reduces the octree token sequence by up to 8x. The second is a masked next-token prediction mechanism tailored for dynamically varying token positions, significantly boosting model performance. By combining these strategies, Uni-3DAR successfully unifies diverse 3D GU tasks within a single autoregressive framework. Extensive experiments across multiple microscopic 3D GU tasks, including molecules, proteins, polymers, and crystals, validate its effectiveness and versatility. Notably, Uni-3DAR surpasses previous state-of-the-art diffusion models by a substantial margin, achieving up to 256\% relative improvement while delivering inference speeds up to 21.8x faster. The code is publicly available at this https URL.
+
+---
+
