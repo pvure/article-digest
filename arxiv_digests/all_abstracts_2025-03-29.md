@@ -1,6 +1,48 @@
-# arXiv q-bio.BM Papers - 2025-03-27
+# arXiv q-bio.BM Papers - 2025-03-29
 
-## Paper 1: IgCraft: A versatile sequence generation framework for antibody discovery and engineering
+## Paper 1: A Principal Submanifold-based Approach for Clustering and Multiscale RNA Correction
+
+**Authors:** Menghao Wu, Zhigang Yao
+
+**Date:** Fri, 28 Mar 2025
+
+**ID:** arXiv:2503.20513
+
+**Abstract:**
+
+RNA structure determination is essential for understanding its biological functions. However, the reconstruction process often faces challenges, such as atomic clashes, which can lead to inaccurate models. To address these challenges, we introduce the principal submanifold (PSM) approach for analyzing RNA data on a torus. This method provides an accurate, low-dimensional feature representation, overcoming the limitations of previous torus-based methods. By combining PSM with DBSCAN, we propose a novel clustering technique, the principal submanifold-based DBSCAN (PSM-DBSCAN). Our approach achieves superior clustering accuracy and increased robustness to noise. Additionally, we apply this new method for multiscale corrections, effectively resolving RNA backbone clashes at both microscopic and mesoscopic scales. Extensive simulations and comparative studies highlight the enhanced precision and scalability of our method, demonstrating significant improvements over existing approaches. The proposed methodology offers a robust foundation for correcting complex RNA structures and has broad implications for applications in structural biology and bioinformatics.
+
+---
+
+## Paper 2: Structured Random Binding: a minimal model of protein-protein interactions
+
+**Authors:** Ling-Nan Zou
+
+**Date:** Fri, 28 Mar 2025
+
+**ID:** arXiv:2503.20581
+
+**Abstract:**
+
+We describe Structured Random Binding (SRB), a minimal model of protein-protein interactions rooted in the statistical physics of disordered systems. In this model, nonspecific binding is a generic consequence of the interaction between random proteins, exhibiting a phase transition from a high temperature state where nonspecific complexes are transient and lack well-defined interaction interfaces, to a low temperature state where the complex structure is frozen and a definite interaction interface is present. Numerically, weakly-bound nonspecific complexes can evolve into tightly-bound, highly specific complexes, but only if the structural correlation length along the peptide backbone is short; moreover, evolved tightly-bound homodimers favor the same interface structure that is predominant in real protein homodimers.
+
+---
+
+## Paper 3: CryoSAMU: Enhancing 3D Cryo-EM Density Maps of Protein Structures at Intermediate Resolution with Structure-Aware Multimodal U-Nets
+
+**Authors:** Chenwei Zhang, Anne Condon, Khanh Dao Duc
+
+**Date:** Fri, 28 Mar 2025
+
+**ID:** arXiv:2503.20291
+
+**Abstract:**
+
+Enhancing cryogenic electron microscopy (cryo-EM) 3D density maps at intermediate resolution (4-8 Å) is crucial in protein structure determination. Recent advances in deep learning have led to the development of automated approaches for enhancing experimental cryo-EM density maps. Yet, these methods are not optimized for intermediate-resolution maps and rely on map density features alone. To address this, we propose CryoSAMU, a novel method designed to enhance 3D cryo-EM density maps of protein structures using structure-aware multimodal U-Nets and trained on curated intermediate-resolution density maps. We comprehensively evaluate CryoSAMU across various metrics and demonstrate its competitive performance compared to state-of-the-art methods. Notably, CryoSAMU achieves significantly faster processing speed, showing promise for future practical applications. Our code is available at this https URL.
+
+---
+
+## Paper 4: IgCraft: A versatile sequence generation framework for antibody discovery and engineering
 
 **Authors:** Matthew Greenig, Haowen Zhao, Vladimir Radenkovic, Aubin Ramon, Pietro Sormanni
 
@@ -14,7 +56,7 @@ Designing antibody sequences to better resemble those observed in natural human 
 
 ---
 
-## Paper 2: mRNA Folding Algorithms for Structure and Codon Optimization
+## Paper 5: mRNA Folding Algorithms for Structure and Codon Optimization
 
 **Authors:** Max Ward, Mary Richardson, Mihir Metkar
 
@@ -28,7 +70,7 @@ mRNA technology has revolutionized vaccine development, protein replacement ther
 
 ---
 
-## Paper 3: UniMoMo: Unified Generative Modeling of 3D Molecules for De Novo Binder Design
+## Paper 6: UniMoMo: Unified Generative Modeling of 3D Molecules for De Novo Binder Design
 
 **Authors:** Xiangzhe Kong, Zishen Zhang, Ziting Zhang, Rui Jiao, Jianzhu Ma, Kai Liu, Wenbing Huang, Yang Liu
 
@@ -42,7 +84,7 @@ The design of target-specific molecules such as small molecules, peptides, and a
 
 ---
 
-## Paper 4: Clustering data by reordering them
+## Paper 7: Clustering data by reordering them
 
 **Authors:** Axel Descamps, Sélène Forget, Aliénor Lahlou, Claire Lavergne, Camille Berthelot, Guillaume Stirnemann, Rodolphe Vuilleumier, Nicolas Chéron
 
@@ -56,7 +98,7 @@ Grouping elements into families to analyse them separately is a standard analysi
 
 ---
 
-## Paper 5: Chem42: a Family of chemical Language Models for Target-aware Ligand Generation
+## Paper 8: Chem42: a Family of chemical Language Models for Target-aware Ligand Generation
 
 **Authors:** Aahan Singh, Engin Tekin, Maryam Nadeem, Nancy A. ElNaker, Mohammad Amaan Sayeed, Natalia Vassilieva, Boulbaba Ben Amor
 
@@ -70,7 +112,7 @@ Revolutionizing drug discovery demands more than just understanding molecular in
 
 ---
 
-## Paper 6: Non-Canonical Crosslinks Confound Evolutionary Protein Structure Models
+## Paper 9: Non-Canonical Crosslinks Confound Evolutionary Protein Structure Models
 
 **Authors:** Romain Lacombe
 
@@ -84,7 +126,7 @@ Evolution-based protein structure prediction models have achieved breakthrough s
 
 ---
 
-## Paper 7: RiboFlow: Conditional De Novo RNA Sequence-Structure Co-Design via Synergistic Flow Matching
+## Paper 10: RiboFlow: Conditional De Novo RNA Sequence-Structure Co-Design via Synergistic Flow Matching
 
 **Authors:** Runze Ma, Zhongyue Zhang, Zichen Wang, Chenqing Hua, Zhuomin Zhou, Fenglei Cao, Jiahua Rao, Shuangjia Zheng
 
@@ -98,7 +140,7 @@ Ribonucleic acid (RNA) binds to molecules to achieve specific biological functio
 
 ---
 
-## Paper 8: An Energy-Adaptive Elastic Equivariant Transformer Framework for Protein Structure Representation
+## Paper 11: An Energy-Adaptive Elastic Equivariant Transformer Framework for Protein Structure Representation
 
 **Authors:** Zhongyue Zhang, Runze Ma, Yanjie Huang, Shuangjia Zheng
 
@@ -112,7 +154,7 @@ Structure-informed protein representation learning is essential for effective pr
 
 ---
 
-## Paper 9: Gumbel-Softmax Flow Matching with Straight-Through Guidance for Controllable Biological Sequence Generation
+## Paper 12: Gumbel-Softmax Flow Matching with Straight-Through Guidance for Controllable Biological Sequence Generation
 
 **Authors:** Sophia Tang, Yinuo Zhang, Alexander Tong, Pranam Chatterjee
 
@@ -126,7 +168,7 @@ Flow matching in the continuous simplex has emerged as a promising strategy for 
 
 ---
 
-## Paper 10: Preferential Multi-Objective Bayesian Optimization for Drug Discovery
+## Paper 13: Preferential Multi-Objective Bayesian Optimization for Drug Discovery
 
 **Authors:** Tai Dang, Long-Hung Pham, Sang T. Truong, Ari Glenn, Wendy Nguyen, Edward A. Pham, Jeffrey S. Glenn, Sanmi Koyejo, Thang Luong
 
@@ -137,20 +179,6 @@ Flow matching in the continuous simplex has emerged as a promising strategy for 
 **Abstract:**
 
 Despite decades of advancements in automated ligand screening, large-scale drug discovery remains resource-intensive and requires post-processing hit selection, a step where chemists manually select a few promising molecules based on their chemical intuition. This creates a major bottleneck in the virtual screening process for drug discovery, demanding experts to repeatedly balance complex trade-offs among drug properties across a vast pool of candidates. To improve the efficiency and reliability of this process, we propose a novel human-centered framework named CheapVS that allows chemists to guide the ligand selection process by providing preferences regarding the trade-offs between drug properties via pairwise comparison. Our framework combines preferential multi-objective Bayesian optimization with a docking model for measuring binding affinity to capture human chemical intuition for improving hit identification. Specifically, on a library of 100K chemical candidates targeting EGFR and DRD2, CheapVS outperforms state-of-the-art screening methods in identifying drugs within a limited computational budget. Notably, our method can recover up to 16/37 EGFR and 37/58 DRD2 known drugs while screening only 6% of the library, showcasing its potential to significantly advance drug discovery.
-
----
-
-## Paper 11: Uni-3DAR: Unified 3D Generation and Understanding via Autoregression on Compressed Spatial Tokens
-
-**Authors:** Shuqi Lu, Haowei Lin, Lin Yao, Zhifeng Gao, Xiaohong Ji, Weinan E, Linfeng Zhang, Guolin Ke
-
-**Date:** Mon, 24 Mar 2025
-
-**ID:** arXiv:2503.16278
-
-**Abstract:**
-
-Recent advancements in large language models and their multi-modal extensions have demonstrated the effectiveness of unifying generation and understanding through autoregressive next-token prediction. However, despite the critical role of 3D structural generation and understanding (3D GU) in AI for science, these tasks have largely evolved independently, with autoregressive methods remaining underexplored. To bridge this gap, we introduce Uni-3DAR, a unified framework that seamlessly integrates 3D GU tasks via autoregressive prediction. At its core, Uni-3DAR employs a novel hierarchical tokenization that compresses 3D space using an octree, leveraging the inherent sparsity of 3D structures. It then applies an additional tokenization for fine-grained structural details, capturing key attributes such as atom types and precise spatial coordinates in microscopic 3D structures. We further propose two optimizations to enhance efficiency and effectiveness. The first is a two-level subtree compression strategy, which reduces the octree token sequence by up to 8x. The second is a masked next-token prediction mechanism tailored for dynamically varying token positions, significantly boosting model performance. By combining these strategies, Uni-3DAR successfully unifies diverse 3D GU tasks within a single autoregressive framework. Extensive experiments across multiple microscopic 3D GU tasks, including molecules, proteins, polymers, and crystals, validate its effectiveness and versatility. Notably, Uni-3DAR surpasses previous state-of-the-art diffusion models by a substantial margin, achieving up to 256\% relative improvement while delivering inference speeds up to 21.8x faster. The code is publicly available at this https URL.
 
 ---
 

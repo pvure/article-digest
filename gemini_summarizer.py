@@ -96,7 +96,7 @@ def create_summary_file(summaries, output_path):
 
 def main():
     # Configuration
-    api_key = "KEY"  # Replace with your actual Gemini API key
+    api_key = "key"  # Replace with your actual Gemini API key
     
     # Find the most recent abstracts file
     abstracts_dir = "arxiv_digests"
